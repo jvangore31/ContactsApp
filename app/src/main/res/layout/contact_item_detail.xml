@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/contactItem"
+    android:nestedScrollingEnabled="false">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/largeContactImage"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:cropToPadding="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@+id/company"
+        android:textSize="18sp"
+        android:id="@+id/company"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/largeContactImage"
+        android:layout_alignParentStart="true"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@+id/contactPhone"
+        android:textSize="18sp"
+        android:id="@+id/contactPhone"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/company"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@+id/contactEmail"
+        android:textSize="18sp"
+        android:id="@+id/contactEmail"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/contactPhone"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@+id/contactAddress"
+        android:textSize="18sp"
+        android:id="@+id/contactAddress"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/contactEmail"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@+id/contactFavorite"
+        android:textSize="18sp"
+        android:id="@+id/contactFavorite"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/contactAddress"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@+id/contactBirthday"
+        android:textSize="18sp"
+        android:id="@+id/contactBirthday"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:padding="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/contactFavorite"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
